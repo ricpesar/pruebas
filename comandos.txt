@@ -1,0 +1,334 @@
+    1  exit
+    2  yum update -y
+    3  ll
+    4  yum install wget
+    5  clear
+    6  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.rpm"
+    7  ll
+    8  cd ll
+    9  ll
+   10  ls
+   11  yum localinstall jdk-8u181-linux-x64.rpm 
+   12  java
+   13  where is java
+   14  whereis java
+   15  javac
+   16  yum localinstall jdk-8u181-linux-x64.rpm 
+   17  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.rpm"
+   18  sudo yum localinstall jdk-8u181-linux-x64.rpm 
+   19  sudo yum localinstall jdk-8u181-linux-x64.rpm
+   20  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.rpm"
+   21  sudo yum localinstall jdk-8u181-linux-x64.rpm
+   22  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1/jdk-8u181-linux-x64.rpm"
+   23  ll
+   24  sudo yum localinstall jdk-8u181-linux-x64.rpm.2
+   25  rm jdk-8u181-linux-x64.rpm
+   26  rm jdk-8u181-linux-x64.rpm.1
+   27  ll
+   28  mv jdk-8u181-linux-x64.rpm.2 jdk-8u181-linux-x64.rpm
+   29  ll
+   30  sudo yum localinstall jdk-8u181-linux-x64.rpm.2
+   31  sudo yum localinstall jdk-8u181-linux-x64.rpm
+   32  whereis java
+   33  echo "export JAVA_HOME=/usr/java/lastest" >> /etc/enviroment
+   34  java
+   35  javac 
+   36  sudo nano /etc/ssh/sshd_service
+   37  sudo nano /etc/ssh/ssh_service
+   38  sudo nano /etc/ssh/ssh_config
+   39  sudo nano /etc/ssh/sshd_config
+   40  sudo systemctl restart sshd.service
+   41  exit
+   42  hostname
+   43  sudo nano /etc/ssh/ssh_config
+   44  sudo systemctl restart sshd_config
+   45  sudo systemctl restart sshd.service
+   46  systemctl restart sshd.service
+   47  date
+   48  timedatectl
+   49  timedatectl list-timezone
+   50  yum upgrate
+   51  yum updrate -y
+   52  sudo su -
+   53  exit
+   54  sudo su -
+   55  exit
+   56  clear
+   57  yum install -y chrony
+   58  systemctl start chronyd
+   59  systemctl status chronyd
+   60  systemctl enable chronyd
+   61  date
+   62  timedatectl | grep "NTP synchronized"
+   63  timedatectl set-ntp yes
+   64  date
+   65  nano /etc/chrony.conf
+   66  systemctl restart chronyd
+   67  date
+   68  imedatectl list-timezones
+   69  systemctl status chronyd
+   70  chronyc tracking
+   71  chronyc sources
+   72  timedatectl set-timezone "Locale time"
+   73  timedatectl set-timezone "Mexico/City"
+   74  timedatectl set-timezone "America/Mexico_City"
+   75  date
+   76  clear
+   77  hostname
+   78  sudo su 
+   79  exit
+   80  hostnamectl
+   81  hostnamectl
+   82  sudo su -
+   83  exit
+   84  cls
+   85  clear
+   86  java
+   87  clear
+   88  free -g
+   89  free -m
+   90  cat /proc/cpuinfo
+   91  env
+   92  env JAVA_HOME
+   93  echo JAVA_HOME
+   94  echo $JAVA_HOME
+   95  whereis java
+   96  alternatives --config java
+   97  clear
+   98  whereis java
+   99  alternatives --config java
+  100  echo "export JAVA_HOME=/usr/bin/java >> /etc/enviroment
+  101  echo $JAVA_HOME
+  102  echo "export JAVA_HOME=/usr/bin/java" >> /etc/enviroment
+  103  echo $JAVA_HOME
+  104  cat /etc/enviroment
+  105  sudo passwwd
+  106  sudo passwd
+  107  sudo echo "export JAVA_HOME=/usr/bin/java" >> /etc/enviroment
+  108  echo $JAVA_HOME
+  109  cat /etc/enviroment
+  110  sudo cat /etc/enviroment
+  111  env
+  112  clear
+  113  sudo echo "export JAVA_HOME=/usr/bin/java" >> /etc/environment
+  114  echo $JAVA_HOME
+  115  env
+  116  clear
+  117  yum install install yum-utils -y
+  118  sudo echo "export JAVA_HOME=/usr/bin/java" >> /etc/environment 
+  119  echo $JAVA_HOME
+  120  export JAVA_HOME=/usr/bin/java
+  121  echo $JAVA_HOME
+  122  ls
+  123  wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+  124  ls
+  125  tar -xvf apache-maven-3.5.4-bin.tar.gz 
+  126  ls
+  127  clear
+  128  ls
+  129  mkdir maven 
+  130  mv apache-maven-3.5.4 maven 
+  131  rm anaconda-ks.cfg 
+  132  rm original-ks.cfg 
+  133  rm -r apache-maven-3.5.4-bin.tar.gz 
+  134  rm -r apache-maven-3.5.4
+  135  rm -rf apache-maven-3.5.4
+  136  ls
+  137  cd maven/
+  138  tar -xvf apache-maven-3.5.4-bin.tar.gz 
+  139  ls
+  140  rm -rf apache-maven-3.5.4/
+  141  cd.. 
+  142  cd ..
+  143  mv apache-maven-3.5.4-bin.tar.gz  maven
+  144  cd maven
+  145  ls
+  146  tar -xvf apache-maven-3.5.4-bin.tar.gz 
+  147  clera
+  148  clear
+  149  ls
+  150  nano maven.sh
+  151  clear
+  152  nano maven.sh
+  153  clar
+  154  claer
+  155  clear
+  156  nano maven.sh
+  157  javac
+  158  ls
+  159  clear
+  160  mvn -version
+  161  java -version
+  162  sudo ln -s apache-maven-3.5.4
+  163  cd ..
+  164  ls
+  165  cd maven/
+  166  ls
+  167  sudo ln -s apache-maven-3.5.4 maven 
+  168  ls
+  169  sudo nano /etc/profile.d/maven.sh
+  170  pwd
+  171  sudo nano /etc/profile.d/maven.sh
+  172  clear
+  173  sudo nano /etc/profile.d/maven.sh
+  174  clear
+  175  ls
+  176  rm maven
+  177  rm maven.sh 
+  178  ls
+  179  cd /root/maven/
+  180  ls
+  181  cd maven/
+  182  cd maven 
+  183  ls
+  184  cd ..
+  185  ls
+  186  cd maven
+  187  ls
+  188  cd ..
+  189  source /etc/profile.d/maven.sh
+  190  mvn -version
+  191  cd  /etc/profile.d/
+  192  ls
+  193  ls -al
+  194  chmod -x maven.sh 
+  195  ls
+  196  ls -al
+  197  ls
+  198  clear
+  199  d /root/maven
+  200  cd /root/maven
+  201  ls
+  202  cd /root/maven/maven
+  203  ls
+  204  sudo nano /etc/profile.d/maven.sh
+  205  source /etc/profile.d/maven.sh
+  206  mvn -version
+  207  whereis java
+  208  cd /usr/bin/java
+  209  cd ..
+  210  java
+  211  clear
+  212  ls
+  213  whereis java
+  214  cd /etc
+  215  ls
+  216  cd /usr/
+  217  ls
+  218  ls /usr/bin/java
+  219  cd /usr/bin/java
+  220  cd usr
+  221  cd /usr/
+  222  ls
+  223  cd java/
+  224  ls
+  225  cd jdk1.8.0_181-amd64/
+  226  ls
+  227  history | grep export
+  228  history | awk "/ 121 /"
+  229  history | awk "/ 121 /{print $2}"
+  230  export JAVA_HOME=/usr/bin/java/jdk1.8.0_181-amd64
+  231  echo $JAVA_HOME
+  232  mvn -version
+  233  cd /usr/bin/java/jdk1.8.0_181-amd64
+  234  cd /usr/java/jdk1.8.0_181-amd64/
+  235  export /usr/java/jdk1.8.0_181-amd64
+  236  export JAVA_HOME=/usr/java/jdk1.8.0_181-amd64
+  237  mvn -version
+  238  clear
+  239  mvn -version
+  240  ll
+  241  cd ~
+  242  ls
+  243  whoami
+  244  useradd -m test 
+  245  passwd test
+  246  su -u test
+  247  clear
+  248  su -test
+  249  su -l test
+  250  exit
+  251  sudo export JAVA_HOME=/usr/java/jdk1.8.0_181-amd64
+  252  echo "export JAVA_HOME=/usr/java/latest" >> /etc/environment
+  253  echo $JAVA_HOME
+  254  exit
+  255  useradd -m ricardo
+  256  passwd ricardo
+  257  su -l ricardo
+  258  sudo usermod -aG root ricardo
+  259  su -l ricardo
+  260  python -v
+  261  clear
+  262  ls
+  263  python -version
+  264  python --version
+  265  clear
+  266  sudo yum gcc install openssl-devel bzip2-devel libffillibffi-devel -y
+  267  pwd
+  268  ls
+  269  wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+  270  ls
+  271  tar -xvf Python-3.7.0.tgz 
+  272  ls
+  273  cd Python-3.7.0/
+  274  ls
+  275  ./configure
+  276  sudo make 
+  277  clear
+  278  sudo make install
+  279  python3 -version
+  280  python3 --version
+  281  clear
+  282  python3 --version
+  283  sudo usermod -aG wheel ricardo
+  284  getent group | grep ricardo
+  285  sudo gpasswd -d ricardo root
+  286  getent group | grep ricardo
+  287  su -l ricardo
+  288  exit
+  289  mvn -version
+  290  mvn -version
+  291  sudo usermod -aG root ricardo
+  292  exit
+  293  history | grep ".d"
+  294  cat /etc/profile.d
+  295  cat /etc/profile.d/maven.sh 
+  296  nano /etc/profile.d/maven.sh 
+  297  cd /usr/local/src/
+  298  ls
+  299  exit
+  300  sudo cic
+  301  su cic
+  302  htop
+  303  watch -5 free -m
+  304  watch -n 5 free -m
+  305  java -version
+  306  sudo yum install epel-release -y
+  307  yum  -y update
+  308  tmux
+  309  tmox
+  310  tmux
+  311  yum install tmux 
+  312  tmux
+  313  tmux
+  314  wget http://mirror.pnl.gov/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+  315  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  316  rpm -Uvh epel-release-latest-7.noarch.rpm 
+  317  yum repolist
+  318  yum install htop
+  319  htop
+  320  sudo -l cic
+  321  su -l cic
+  322  yum install htop
+  323  wget dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+  324  sudo su -
+  325  htop
+  326  su -l cic
+  327  sudo ls
+  328  su -l cic
+  329  sudo cat /proc/cpuinfo >> /etc/motd
+  330  nano /etc/motd
+  331  git branch -a 
+  332  git checkout -b comandos
+  333  git branch -a 
+  334  history >> comandos.txt
